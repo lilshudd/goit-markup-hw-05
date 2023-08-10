@@ -884,8 +884,6 @@ COMPONENT STYLES
     margin-bottom: 4px;
 }
 
-.modal-span {}
-
 .modal-input-icon {
     fill: var(--gray-cl);
     position: absolute;
