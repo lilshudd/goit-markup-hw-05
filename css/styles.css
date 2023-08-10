@@ -629,11 +629,16 @@ COMPONENT STYLES
     width: 264px;
     height: 40px;
     flex-shrink: 0;
-    padding: 0 24px;
     border-radius: 4px;
     border: 1px solid var(--white, #FFF);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     background: transparent;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    padding-right: 16px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 }
 
 .footer-input::placeholder {
@@ -648,10 +653,9 @@ COMPONENT STYLES
 }
 
 .footer-input-btn {
-    display: inline-flex;
-    box-sizing: content-box;
-    min-width: 117px;
-    height: 24px;
+    display: flex;
+    min-width: 165px;
+    height: 40px;
     padding: 8px 24px;
     justify-content: center;
     align-items: center;
@@ -659,14 +663,13 @@ COMPONENT STYLES
     border: none;
     border-radius: 4px;
     background: var(--iris, #4D5AE5);
-    color: var(--white, #FFF);
+    color: #ffffff;
     text-align: center;
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.64px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 }
 
 .footer-button-area {
@@ -679,6 +682,7 @@ COMPONENT STYLES
     top: 50%;
     right: 24px;
     transform: translateY(-50%);
+    margin-left: 16px;
     transition: fill 200ms ease;
 }
 
@@ -757,9 +761,9 @@ COMPONENT STYLES
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1.5;
     /* 150% */
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
     margin-bottom: 16px;
 }
 
@@ -791,7 +795,7 @@ COMPONENT STYLES
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
-    line-height: 14px;
+    line-height: 1.6px;
     /* 116.667% */
     letter-spacing: 0.48px;
 }
