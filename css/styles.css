@@ -814,13 +814,12 @@ COMPONENT STYLES
 }
 
 .modal-input {
-    width: 360px;
+    width: 100%;
     height: 40px;
     flex-shrink: 0;
     border-radius: 4px;
     border: 1px solid var(--navyblue-modal, rgba(46, 47, 66, 0.40));
     background-color: transparent;
-    margin-bottom: 8px;
     padding-left: 38px;
     padding-right: 16px;
     outline: transparent;
@@ -838,16 +837,16 @@ COMPONENT STYLES
 .form-btn {}
 
 .modal-label {
-    display: inline-block;
+    display: block;
     color: var(--lightslate, #8E8F99);
     /* Small Text */
     font-family: Roboto;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
-    line-height: 14px;
+    line-height: 1.17;
     /* 116.667% */
-    letter-spacing: 0.48px;
+    letter-spacing: 0.04em;
     margin-bottom: 4px;
 }
 
@@ -858,12 +857,13 @@ COMPONENT STYLES
     position: absolute;
     left: 16px;
     top: 50%;
-    transform: translateY(-70%);
-    transition: fill 200ms ease;
+    transform: translateY(-50%);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-input-wrap {
     position: relative;
+    margin-bottom: 8px;
 }
 
 .modal-check-txt {
