@@ -912,7 +912,7 @@ COMPONENT STYLES
     letter-spacing: 0.04em;
 }
 
-.modal-check-txt span {
+.modal-label-span {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -946,10 +946,6 @@ COMPONENT STYLES
     line-height: 16px;
     letter-spacing: 0.48px;
     text-decoration-line: underline;
-}
-
-.modal-label-span {
-    display: inline-flex;
 }
 
 /* ------------Portfolio------------- */
