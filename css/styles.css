@@ -899,7 +899,7 @@ COMPONENT STYLES
 }
 
 .modal-check-txt {
-    display: inline-flex;
+    display: flex;
     align-items: center;
     color: var(--lightslate);
     /* Small Text */
