@@ -899,14 +899,9 @@ COMPONENT STYLES
 }
 
 .modal-check-txt {
-    display: flex;
-    align-items: center;
     color: var(--lightslate);
     /* Small Text */
-    font-family: Roboto;
     font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
     line-height: 1.17;
     /* 116.667% */
     letter-spacing: 0.04em;
